@@ -1,4 +1,6 @@
-import Header from "@/components/common/header";
+import Header from "@/components/common/Header";
+import "./globals.css";
+import Slider from "@/components/common/slider";
 
 export const metadata = {
   title: "Hello",
@@ -10,7 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <Header />
-       {children} 
+      <div className="">
+        {children} 
+      </div>
       </body>
     </html>
   );

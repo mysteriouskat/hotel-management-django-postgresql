@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div>
+    <div >
       Hello, welcome to the Hotel Management System!
     </div>
   );
